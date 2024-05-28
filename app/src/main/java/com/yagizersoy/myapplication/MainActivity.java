@@ -30,8 +30,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //Bu kısmı internetten araştırıp buldum
-        //Ekran yükseklik ve genişliğini buluyoruz
+        
         Display display = getWindowManager().getDefaultDisplay();
         Point size = new Point();
         display.getSize(size);
